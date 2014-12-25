@@ -168,16 +168,37 @@ $(document).ready(function() {
   // projects scroll
   $('.menu .menubar:nth-child(1)').on('click', function() {
     $("html, body").animate({scrollTop: $('.container.projects').height()}, 2000);
+    $(".skills").removeClass('show-skills');
+    enable_scroll();
+    $('span').css('height', '0%')
+    off = false;
+    $(".titlebar:nth-child(1)").removeClass('cross-top');
+    $(".titlebar:nth-child(2)").removeClass('cross-mid');
+    $(".titlebar:nth-child(3)").removeClass('cross-bottom');
   });
 
   // about me scroll
   $('.menu .menubar:nth-child(2)').on('click', function() {
     $("html, body").animate({scrollTop: $('.container.about').height()}, 1500);
+    $(".skills").removeClass('show-skills');
+    enable_scroll();
+    $('span').css('height', '0%')
+    off = false;
+    $(".titlebar:nth-child(1)").removeClass('cross-top');
+    $(".titlebar:nth-child(2)").removeClass('cross-mid');
+    $(".titlebar:nth-child(3)").removeClass('cross-bottom');
   });
 
   // contact scroll
   $('.menu .menubar:nth-child(4)').on('click', function() {
     $("html, body").animate({scrollTop: $(document).height()}, 2500);
+    $(".skills").removeClass('show-skills');
+    enable_scroll();
+    $('span').css('height', '0%')
+    off = false;
+    $(".titlebar:nth-child(1)").removeClass('cross-top');
+    $(".titlebar:nth-child(2)").removeClass('cross-mid');
+    $(".titlebar:nth-child(3)").removeClass('cross-bottom');
   });
 
   // education/skills click
