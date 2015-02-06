@@ -95,11 +95,12 @@ $(document).ready(function() {
     $('.header h2').css('-webkit-transform', 'translateX(' + (s/-3) +'px)');
     $('.header p').css('-webkit-transform', 'translateX(' + (s/7) +'px)');
     // background images
-    $('#background img').css('-webkit-filter', 'grayscale(' + (s/6) +'%)');
+    // $('#background img').css('-webkit-filter', 'grayscale(' + (s/6) +'%)');
     $('#background img').css('-webkit-transform', 'translateY(' + (s/-8) +'px)');
     // the project divs
     $('.project').css('-webkit-transform', 'translateX(' + (s/8) +'px)');
     $('.project:nth-child(3)').css('-webkit-transform', 'translateX(' + (s/-8) +'px)');
+    $('.project:nth-child(5)').css('-webkit-transform', 'translateX(' + (s/-8) +'px)');
   });
 
   // for about pictures
